@@ -1,0 +1,27 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #4caf50 !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    margin-right: 10px;
+
+    &:hover {
+        color: #4caf50 !important;
+    }
+}
